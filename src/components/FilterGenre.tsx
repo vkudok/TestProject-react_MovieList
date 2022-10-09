@@ -113,7 +113,6 @@ class FilterGenre extends React.Component<any,  { status: string , name: any[]}>
                 }
                 return checkGenre
             });
-            console.log(newDataGrid);
             this.props.dispatch(setMovieList(newDataGrid));
         }
         this.setState({
